@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nazirul Haziq Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="image/logo.png" style="width:50px;height:50px;"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Resume</a></li>
+                <li><a href="">Experience</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>Nazirul Haziq Profile</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia natus sequi expedita velit doloremque, eligendi est iste.<br> Doloribus voluptates temporibus repellendus ipsa repudiandae consequatur laborum sequi, accusantium dicta possimus omnis.</p>
+    <a href="" class="hero-btn">My Resume</a>
+</div>
+
+
+</section>
+
+<!----- Course ----->
+
+<section class="profile">
+    <h1>My Profile</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam non doloremque iure repellendus laboriosam voluptatem dolores perspiciatis earum. Quas sequi et facere sit vel dicta molestias quod quidem dolore ipsum!</p>
+
+    <div class="row">
+        <div class="profile-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur ea non ipsam vel illum ducimus nihil molestiae ex provident! Possimus sit minus enim recusandae dolore necessitatibus officia optio officiis quae?</p>
+        </div>
+        <div class="profile-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur ea non ipsam vel illum ducimus nihil molestiae ex provident! Possimus sit minus enim recusandae dolore necessitatibus officia optio officiis quae?</p>
+        </div>
+        <div class="profile-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur ea non ipsam vel illum ducimus nihil molestiae ex provident! Possimus sit minus enim recusandae dolore necessitatibus officia optio officiis quae?</p>
+        </div>
+    </div>
+    
+</section>
+
+<!----- About ----->
+<section class="about">
+    <h1>About Me</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse unde soluta mollitia id tempora. Explicabo neque saepe tempora commodi ad fugit assumenda, nemo corporis, quam laudantium illum ab maiores. Facilis?</p>
+    
+    <div class="row">
+        <div class="about-col">
+            <img src="image/london.png">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="image/newyork.png">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="image/washington.png">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-----JavaScript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
